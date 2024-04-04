@@ -59,6 +59,13 @@ When you run the build.py, it will do three things
 python build.py
 ```
 
+> [!IMPORTANT]  
+> CORS has been allowed in the http webserver by using a cors library. So any frontend client can call the API for testing purpose, for example
+
+```
+API_ENDPOINT=https://alb-loadbalancer-example/claude-haiku-image
+```
+
 ## Frontend
 
 Use javascript to call a POST request to /claude-haiku-image, then process stream response from backend. More details on [Anthropic Claude 3 Prompt Messages API](https://docs.anthropic.com/claude/reference/messages_post)
