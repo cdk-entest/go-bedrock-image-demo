@@ -13,7 +13,6 @@ import (
 	"github.com/rs/cors"
 )
 
-//
 const REGION = "us-west-2"
 
 // bedrock client
@@ -44,7 +43,7 @@ func main() {
 	// create handler multiplexer
 	mux := http.NewServeMux()
 
-	// frontend claude haiku
+	// frontend camera  
 	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		// w.Write([]byte("Hello"))
 		http.ServeFile(w, r, "./static/index.html")
