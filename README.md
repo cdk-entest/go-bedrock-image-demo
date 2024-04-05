@@ -6,6 +6,8 @@ date: 05/04/2024
 
 ## Introduction
 
+[![screencast thumbnail](./assets/video.png)](https://d2cvlmmg8c0xrp.cloudfront.net/demo/go-bedrock-demo.mp4)
+
 This repo shows a basic example how to prompt image with Claude 3 in Amazon Bedrock using Go.
 
 - a frontend page to capture image from camera
